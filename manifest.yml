@@ -1,13 +1,8 @@
 ---
 applications:
-- path: .
-  memory: 128M
-  instances: 1
-  domain: mybluemix.net
-  name: jcm-tts
-  host: jcm-tts
-  command: npm start
-  disk_quota: 1024M
-  services:
+- services:
   - jcm-tts-service
-  - availability-monitoring-auto
+  name: jcm-tts
+  command: npm start
+  path: .
+  memory: 512M
