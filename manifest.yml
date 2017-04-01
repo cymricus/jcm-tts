@@ -5,4 +5,4 @@ applications:
   name: jcm-tts
   command: npm start
   path: .
-  memory: 512M
+  memory: 128M
