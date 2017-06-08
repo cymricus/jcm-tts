@@ -8,11 +8,11 @@ function Layout(props) {
   return (
     <html lang="en">
       <head>
-        <title>Text to Speech Demo</title>
+        <title>JCM Text to Speech Application</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="og:title" content="Text to Speech Demo" />
+        <meta name="og:title" content="JCM Text to Speech Application" />
         <meta name="og:description" content={DESCRIPTION} />
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png" />
         <link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png" />
