@@ -203,9 +203,9 @@ export default React.createClass({
     return (
       <section className="_container _container_large">
         <div className="row">
-          <h2 className="base--h2 title">Input Text</h2>
+          <h2 className="base--h2 title">Common Voice Transformation Options</h2>
           <p className="base--p normalfont">
-            The text language must match the selected voice language: Mixing language (English text with a Spanish male voice) does not produce valid results. The synthesized audio is streamed to the client as it is being produced, using the HTTP chunked encoding. The audio is returned in the Ogg Opus format which can be played using VLC and Audacity players.
+            Here is a brief list of commonly used options. For a full list, refer to the documentation link above.<br /><express-as type="GoodNews"></express-as><br /><voice-transformation type="Custom" rate="33%"></voice-transformation><br /><break strength="weak">weak pause</break><br /><prosody volume="x-soft"></prosody>
           </p>
           <div className="voice-input">
             <select name="voice" className="base--select" onChange={this.onVoiceChange} value={this.state.voice.name}>
