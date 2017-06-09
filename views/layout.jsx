@@ -2,7 +2,7 @@ import React from 'react';
 import { Header, Jumbotron } from 'watson-react-components';
 
 // eslint-disable-next-line
-const DESCRIPTION = 'The Text to Speech service understands text and natural language to generate synthesized audio output complete with appropriate cadence and intonation. It is available in 13 voices across 7 languages. Select voices now offer Expressive Synthesis and Voice Transformation features.';
+const DESCRIPTION = 'The JCM Text to Speech service is used to generate consistent audio files easily for PBX greetings and IVR recordings. Firefox or Chrome browsers should be used for full capabilities.';
 
 function Layout(props) {
   return (
@@ -39,8 +39,8 @@ function Layout(props) {
           subBreadcrumbsUrl="https://text-to-speech-demo.mybluemix.net"
         />
         <Jumbotron
-          serviceName="JCM Text to Speech"
-          repository="https://github.com/watson-developer-cloud/text-to-speech-nodejs"
+          serviceName="JCM Text to Speech Generator"
+          repository="https://github.com/carlwest/jcm-tts"
           documentation="https://www.ibm.com/watson/developercloud/doc/text-to-speech/index.html"
           apiReference="http://www.ibm.com/watson/developercloud/text-to-speech/api/v1/"
           startInBluemix="https://console.ng.bluemix.net/registration/?target=/catalog/services/text-to-speech/"
