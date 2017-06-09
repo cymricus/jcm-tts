@@ -8,11 +8,11 @@ function Layout(props) {
   return (
     <html lang="en">
       <head>
-        <title>JCM Text to Speech Application</title>
+        <title>JCM Text to Speech</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="og:title" content="JCM Text to Speech Application" />
+        <meta name="og:title" content="JCM Text to Speech" />
         <meta name="og:description" content={DESCRIPTION} />
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png" />
         <link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png" />
@@ -39,9 +39,9 @@ function Layout(props) {
           subBreadcrumbsUrl="https://text-to-speech-demo.mybluemix.net"
         />
         <Jumbotron
-          serviceName="Text to Speech"
+          serviceName="JCM Text to Speech"
           repository="https://github.com/watson-developer-cloud/text-to-speech-nodejs"
-          documentation="http://www.ibm.com/watson/developercloud/doc/text-to-speech"
+          documentation="https://www.ibm.com/watson/developercloud/doc/text-to-speech/index.html"
           apiReference="http://www.ibm.com/watson/developercloud/text-to-speech/api/v1/"
           startInBluemix="https://console.ng.bluemix.net/registration/?target=/catalog/services/text-to-speech/"
           version="GA" serviceIcon="/images/service-icon.svg"
