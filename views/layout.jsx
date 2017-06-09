@@ -39,7 +39,7 @@ function Layout(props) {
           subBreadcrumbsUrl="https://text-to-speech-demo.mybluemix.net"
         />
         <Jumbotron
-          serviceName="JCM Text to Speech Generator"
+          serviceName="JCM Text to Speech Service"
           repository="https://github.com/carlwest/jcm-tts"
           documentation="https://www.ibm.com/watson/developercloud/doc/text-to-speech/index.html"
           apiReference="http://www.ibm.com/watson/developercloud/text-to-speech/api/v1/"
