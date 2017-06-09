@@ -206,10 +206,6 @@ export default React.createClass({
           <h2 className="base--h2 title">Common Voice Transformation Options</h2>
           <p className="base--p normalfont">
             Here is a brief list of commonly used options. For a full list, refer to the documentation link above.
-			<p><express-as type="GoodNews"></express-as></p>
-			<p><voice-transformation type="Custom" rate="33%"></voice-transformation></p>
-			<p><break strength="weak">weak pause</break></p>
-			<p><prosody volume="x-soft"></prosody></p>
           </p>
           <div className="voice-input">
             <select name="voice" className="base--select" onChange={this.onVoiceChange} value={this.state.voice.name}>
