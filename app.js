@@ -26,8 +26,8 @@ const textToSpeech = new TextToSpeechV1({
   // If unspecified here, the TEXT_TO_SPEECH_USERNAME and
   // TEXT_TO_SPEECH_PASSWORD env properties will be checked
   // After that, the SDK will fall back to the bluemix-provided VCAP_SERVICES environment property
-  // username: '<username>',
-  // password: '<password>',
+  username: 'f01d12d1-5fab-47ae-84e8-5a0e2ae60258',
+  password: 'U73OCHlEPy55',
 });
 
 app.get('/', (req, res) => {
