@@ -80,11 +80,11 @@ export default React.createClass({
 
   getInitialState() {
     return {
-      voice: voices[3], // Alisson is the first voice
+      voice: voices[5], // Michael is the first voice
       error: null, // the error from calling /classify
-      text: voices[3].demo.text, // default text
-      ssml: voices[3].demo.ssml, // SSML text
-      ssml_voice: voices[3].demo.ssml_voice, // Voice SSML text, only some voices support this
+      text: voices[5].demo.text, // default text
+      ssml: voices[5].demo.ssml, // SSML text
+      ssml_voice: voices[5].demo.ssml_voice, // Voice SSML text, only some voices support this
       ssmlLabel: "Expressive SSML",
       current_tab: 0,
       loading: false
@@ -187,7 +187,7 @@ export default React.createClass({
   onVoiceChange(event) {
     const voice = voices[voices.map(v => v.name).indexOf(event.target.value)];
     var label = "SSML"
-    if (voice.name === "en-US_AllisonVoice")        
+    if (voice.name === "en-US_AllisonVoice" || voice.name === "en-US_MichaelVoice" )        
        label = "Expressive SSML"
     this.setState({
       voice,
