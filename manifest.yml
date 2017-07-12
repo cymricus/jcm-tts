@@ -1,8 +1,8 @@
 ---
 applications:
 - services:
-  - jcm-tts-service
-  name: jcm-tts
+  - cymricus-tts-service
+  name: cymricus-tts
   command: npm start
   path: .
   memory: 256M
